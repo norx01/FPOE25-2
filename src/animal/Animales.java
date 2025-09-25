@@ -35,6 +35,8 @@ public class Animales {
                 Animal animal = new Animal(nombre, raza, edad, tipoAmbiente);
                 //Alimetamos la lista de animales
                 animalList.add(animal);
+                JOptionPane.showMessageDialog(null,"Animal registrado");
+                limpiar();
             }
         });
 
@@ -47,6 +49,13 @@ public class Animales {
         });
     }
 
+    public void limpiar()
+    {
+        campoNombre.setText("");
+        campoRaza.setText("");
+        campoEdad.setText("");
+        campoTA.setText("");
+    }
     public void mostrarAnimales()
     {
         for (Animal animal : animalList)

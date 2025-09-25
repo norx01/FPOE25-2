@@ -27,7 +27,8 @@ public class Main
             @Override
             public void actionPerformed(ActionEvent e)
             {
-
+                MostrarAnimales mostrar = new MostrarAnimales(animales.animalList);
+                mostrar.menu();
             }
         });
     }
