@@ -51,6 +51,7 @@ public class Calculadora {
 
     public void valor()
     {
+        valor1 =3;
         switch (num1)
         {
             case 1:
@@ -66,6 +67,19 @@ public class Calculadora {
                 JOptionPane.showMessageDialog(null,"El numero no es definido");
                 break;
         }
+    }
+
+    int valor1 = 5;
+
+    public void prueba()
+    {
+        int valor1 = 5;
+        if (4 == 3)
+        {
+            int valor2 = 4;
+        }
+
+        int valor2 = 4;
     }
 
     //Metodo main
